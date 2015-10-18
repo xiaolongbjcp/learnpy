@@ -1,6 +1,8 @@
 
 
 # the item using must be the one never edited before
+# L[length - i] = L[length - i] + L[length - i -1]
+# [L[i] + L[i + 1] for i in range(len(L) - 1)]
 
 def triangles(max):
 	n = 1
