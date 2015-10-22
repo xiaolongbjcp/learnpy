@@ -14,12 +14,12 @@ class Dict(dict):
 		except KeyError:
 			raise AttributeError("'Dict' object has no attribute '%s'" % key)
 
-d = Dict(a=1, b=2)
-print (d['a'])
-print (d.a)
-d.a = 3
-print (d.a)
-d['a'] = 4
-print (d['a'])
-print (d.c)
+# d = Dict(a=1, b=2)
+# print (d['a'])
+# print (d.a)
+# d.a = 3
+# print (d.a)
+# d['a'] = 4
+# print (d['a'])
+# print (d.c)
 
